@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+body {
+    background-color: #fecc57;
+    height: 100%;
+}
+
+
+/*
+
+NAVIGATION BAR
+
+*/
+
+nav {
+    height: 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.porkins-logo {
+    width: 200px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    padding-left: 34px;
+    align-items: center;
+}
+
+.nav-links {
+    text-decoration: none;
+    padding-right: 24px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.ig-logo {
+    font-size: 30px;
+}
+
+/* 
+
+PORKINS INTRODUCTION
+
+*/
+
+.porkins-intro {
+    padding-top: 50px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.porkinsmp4 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.intro-para {
+    font-size: 18px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #242424;
+}
+
+.footer-text {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* 
+
+CLOTHING PAGE
+
+*/
+
+.clothing-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.clothing-row {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#product-component-1647559513289 {
+    padding-right: 50px;
+}
+
+#product-component-1647559547681 {
+    padding-right: 50px;
+}
+
+/* 
+
+ARTWORK PAGE
+
+*/
+
+.artwork-h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* 
+
+CONTACT PAGE
+
+*/
+
+.contact-form {
+    padding: 50px
+}
+
+.contact-me-head {
+    padding: 50px;
+}
