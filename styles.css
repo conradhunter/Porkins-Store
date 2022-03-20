@@ -63,6 +63,12 @@ nav {
     align-items: center;
 }
 
+.nav-links:hover {
+    transition: 300ms ease;
+    color: blue
+    
+}
+
 .ig-logo {
     font-size: 30px;
 }
@@ -200,4 +206,9 @@ input {
     margin-bottom: 12px;
     padding: 8px;
     border: 1.5px;
+}
+
+#submit-button {
+    margin-top: 12px;
+    max-width: 100px;
 }
